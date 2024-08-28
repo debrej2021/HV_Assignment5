@@ -1,0 +1,29 @@
+System Information Report
+=========================
+
+System Uptime:
+up 28 minutes
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           7.6Gi       490Mi       6.8Gi       2.0Mi       399Mi       6.9Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+CPU Load (1, 5, 15 min):
+average:0.00,0.02,
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc       1007G  1.8G  954G   1% /
+
+Top 10 Running Processes by Memory Usage:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         336  0.1  1.0 918440 86164 ?        Sl   14:19   0:03 /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10 -m subiquity.cmd.server --use-os-prober --storage-version=2 --postinst-hooks-dir=/snap/ubuntu-desktop-installer/1286/etc/subiquity/postinst.d
+root         156  0.0  0.5 1763672 42752 ?       Ssl  14:19   0:00 /usr/lib/snapd/snapd
+root         409  0.4  0.4  44188 37736 ?        S    14:20   0:08 python3 /snap/ubuntu-desktop-installer/1286/usr/bin/cloud-init status --wait
+root         219  0.0  0.2 107224 21372 ?        Ssl  14:19   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         154  0.0  0.2  30096 19592 ?        Ss   14:19   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root          43  0.0  0.1  47812 14980 ?        S<s  14:19   0:00 /lib/systemd/systemd-journald
+systemd+     103  0.0  0.1  25532 12564 ?        Ss   14:19   0:00 /lib/systemd/systemd-resolved
+root           1  0.8  0.1 165864 11308 ?        Ss   14:19   0:14 /sbin/init
+debsus       391  0.0  0.1  16904  8776 ?        Ss   14:19   0:00 /lib/systemd/systemd --user
